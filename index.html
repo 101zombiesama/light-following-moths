@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <script src="loadash.js"></script>
+    <title>ES</title>
+</head>
+<body>
+    <h2 style="position: absolute; left: 600px; color: white;">Light Following moths!</h2>
+    <canvas id="canvasBg"></canvas>
+    <canvas id="canvasBottom"></canvas>
+    <canvas id="canvasAgent"></canvas>
+    <canvas id="canvasTop"></canvas>
+    <img style="visibility: hidden;" id="moth" src="moth.png" width="50px" alt="">
+    <button onclick="reset()">Reset</button>
+    <input type="checkbox" name="" id="inp-showSamples" checked>
+    <label style="color: white;" for="inp-showSamples">Show Moth Samples</label>
+
+    <script src="draw.js"></script>
+    <script src="es.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
